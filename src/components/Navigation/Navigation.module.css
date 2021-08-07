@@ -1,0 +1,14 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 18px;
+  font-weight: 600;
+  color: gold;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955), 0.5 linear;
+}
+
+.link:hover {
+  color: greenyellow;
+
+  transform: scale(1.1);
+}

@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.appbar {
+  display: flex;
+  justify-content: space-between;
+
+  color: gold;
+  background-color: black;
+  border-bottom: 1px solid rgb(30, 194, 30);
+}

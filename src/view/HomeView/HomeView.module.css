@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 420px;
+  margin: 50px auto;
+}
+
+.span {
+  color: gold;
+  font-weight: 900;
+}
+
+.title {
+  padding-top: 100px;
+  font-weight: 600;
+  font-size: 32spx;
+  text-align: center;
+  color: rgb(30, 194, 30);
+}

@@ -1,0 +1,41 @@
+.form {
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+
+  color: gold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.header {
+  text-align: center;
+  margin: 40px auto;
+  color: rgb(30, 194, 30);
+}
+
+.button {
+  margin-left: auto;
+  padding: 9px;
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+
+  background-color: gray;
+  color: gold;
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955), 0.25s linear;
+}
+
+.button:hover {
+  background-color: rgb(30, 194, 30);
+  color: aliceblue;
+  outline: none;
+  cursor: pointer;
+}
